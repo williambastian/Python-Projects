@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<h1>Sample Article</h1>
+	<article>
+	</article>
