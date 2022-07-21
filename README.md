@@ -7,7 +7,8 @@ Repository created 06/19/2022
 
 **Assignments and projects using HTML and CSS will be located here.
 
-**Projects here include the followingl sample webpages:
+**Projects here include the following sample webpages:
+  - Live Portfolio page: wbastian.com
   - Space Station Resort site
   - Movie Theater sample home page 
 
