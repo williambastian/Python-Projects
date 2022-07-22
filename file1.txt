@@ -1,5 +1,0 @@
-This is my text file
-This is another line in my text file
-This is a new line of text for myFirstBranch
-Adding another modification to file1
-Correct line of text
