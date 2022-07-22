@@ -4,10 +4,10 @@ window.alert("Hello World!");
 document.write("Hello Again!");
 //assigning and concatenating string variables//
 var Sent1 = " This is the beginning of a string.";
-document.write(A);
+//document.write(A);//
 var Sent2 = " and this is the end of the string.";
 document.write(Sent1+Sent2);
-window.alert(B);
+//window.alert(B);//
 var C = "\"This is a quote within a string, isn't it?\""
 document.write(C);
 //var D is a string concatenation and an expression//
