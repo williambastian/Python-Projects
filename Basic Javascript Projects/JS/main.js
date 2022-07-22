@@ -3,9 +3,10 @@ window.alert("Hello World!");
 //print hello again on page//
 document.write("Hello Again!");
 //assigning and concatenating string variables//
-var A = " This is a string.";
+var Sent1 = " This is the beginning of a string.";
 document.write(A);
-var B = "This is another string.";
+var Sent2 = " and this is the end of the string.";
+document.write(Sent1+Sent2);
 window.alert(B);
 var C = "\"This is a quote within a string, isn't it?\""
 document.write(C);
