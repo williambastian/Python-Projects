@@ -1,17 +1,3 @@
-# HTML-and-CSS-Projects
+# JavaScript-Projects
 
-Repository created 06/19/2022
-
-
-**This repository was created as a working location for Tech Academy HTML and CSS coursework.
-
-**Assignments and projects using HTML and CSS will be located here.
-
-**Projects here include the following sample webpages:
-  - Live Portfolio page: wbastian.com
-  - Space Station Resort site
-  - Movie Theater sample home page 
-
-Space Station Resort site created and styled with HTML and CSS. Includes navbar, image containers, and form.
-
-Movie Theater sample home page styled with bootstrap 4. Contains bootstrap components such as navbar, cards, form, and dropdown.
+This repository contains projects that focus on implementation of JavaScript.
