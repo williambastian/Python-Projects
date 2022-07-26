@@ -1,4 +1,4 @@
-//JS File for project 4//
+//JS File for project 4 //
 
 function quickDictionary(){
     var Plant = {
