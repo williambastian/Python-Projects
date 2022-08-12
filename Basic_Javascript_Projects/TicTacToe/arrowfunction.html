@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Let's Play Tic Tac Toe!</title>
+        <meta charset = "UTF-8">
+        <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
+        
+    </head>
+
+    <body>
+        <h2>JavaScript Arrow Function</h2>
+        <p id="nonArrow"></p>
+        <p id="Arrow"></p>
+        <script>
+            var helloNon;
+            helloNon = function(){
+                return "Hello World!";
+            }
+            document.getElementById("nonArrow").innerHTML = helloNon();
+
+            var hello;
+            hello = () => {
+                return "Hello Arrow!";
+            }
+            document.getElementById("Arrow").innerHTML = hello();
+
+        </script>
+    </body>
+</html>
