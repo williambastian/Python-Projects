@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+#menuBG {
+    width: 600px;
+    height:470px;
+    margin:10px auto;
+}
+
+#frmMenu {
+    width: 600px;
+    height:200px;
+
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+.menu {
+    width: 33.33%;
+    /*height: 200px;*/
+    float: left;
+    
+    
+}
+/*.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+    white-space: nowrap;
+    
+}
+
+
+.right {
+    width: 200px;
+    height: 200px;
+    float: right;
+    padding-bottom: 30px;
+    
+}*/
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top: 0; 
+    margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+
+body {
+    background-color: goldenrod;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    color:orangered;
+    text-align: center;
+}
+
+h3 {
+    font-family:'Courier New', Courier, monospace;
+    color: orangered;
+}
+
+div {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
