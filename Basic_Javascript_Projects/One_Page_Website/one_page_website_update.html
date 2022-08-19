@@ -7,142 +7,206 @@
         <link rel="stylesheet" type="text/css" href="CSS/one_page_website.css"/>
     </head>
     <body>
-        <!-- NAV -->
-        <div class="navbar">
-            <div>
-                <nav>
-                    <a href="#home" id="link"><li>HOME</li></a>
-                    <a href="#gallery" id="link"><li>GALLERY</li></a>
-                    <a href="#video" id="link"><li>BENEFITS OF PLANTS AT HOME</li></a>
-                    <a href="#contact" id="link"><li>CONTACT US</li></a>
-                </nav>
-            </div>
-        </div>
-        <br>
-        <br>
-        <!--END NAV-->
         
-        <!--HOME-->
-        <div id="home">
-            <br>
-            <br>
-            <div>
-                <div>
-                    <h1 style="text-align:center"><span>Mr. Flower's Plant Boutique</span></h1>
-                    <p style="text-align:center"><span>North Texas' Premier Seller of Boutique Botanicals</span></p>
+                <script>
+                    document.body.classList.add('fade-out');
+                </script>
+                <script>
+                    window.addEventListener('DOMContentLoaded', () => { document.body.classList.remove('fade-out');
+                    });
+                </script>
+        <div class = bigContainer>
+            
+                <!--Sticky Text-->
+                
+            
+                <!-- NAV -->
+                <div class="navbar">
+                    <div>
+                        <nav>
+                            <a href="#home" id="link"><li>HOME</li></a>
+                            <a href="#gallery" id="link"><li>GALLERY</li></a>
+                            <a href="#video" id="link"><li>BENEFITS OF PLANTS AT HOME</li></a>
+                            <a href="#contact" id="link"><li>CONTACT US</li></a>
+                        </nav>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <!--END HOME-->
-        <div id="gallery">
-            <br>
-            <br>
-        <h2 style="text-align:center">Gallery</h2>
-        <div class="row">
-            <div class="column">
-                <img src="img/plants/plant1-small.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-            </div>
-            <div class="column">
-                <img src="img/plants/plant2-small.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-            </div>
-            <div class="column">
-                <img src="img/plants/plant3-small.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-            </div>
-            <div class="column">
-                <img src="img/plants/plant4-small.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-            </div>
-        </div>
-
-        <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
-                <div class="mySlides">
-                    <div class="numbertext">1 / 4</div>
-                    <img src="img/plants/plant1.png" style="width:100%">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">2 / 4</div>
-                    <img src="img/plants/plant2.png" style="width:100%">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">3 / 4</div>
-                    <img src="img/plants/plant3.png" style="width:100%">
-                </div>
-                <div class="mySlides">
-                    <div class="numbertext">4 / 4</div>
-                    <img src="img/plants/plant4.png" style="width:100%">
-                </div>
-
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
-
-                <div class="column">
-                    <img class="demo cursor" src="img/plants/plant1.png" style="width:100%" onclick="currentSlide(1)" alt="plant1">
-                </div>
-                <div class="column">
-                    <img class="demo cursor" src="img/plants/plant2.png" style="width:100%" onclick="currentSlide(2)" alt="plant1">
-                </div>
-                <div class="column">
-                    <img class="demo cursor" src="img/plants/plant3.png" style="width:100%" onclick="currentSlide(3)" alt="plant1">
-                </div>
-                <div class="column">
-                    <img class="demo cursor" src="img/plants/plant4.png" style="width:100%" onclick="currentSlide(4)" alt="plant1">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--VIDEO SECTION-->
-    <section>
-        
-        <div id="video">
-            <br>
-            <br>
-            <h2 style="text-align:center">The Benefits of Plants at Home</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/8at9udGspPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </section>
-    <!--RSVP-->
-    <section>
-        <div id="contact">
-            <h1>Contact Us</h1>
-            <div>
-                <h2><span>Join our mailing list today.</span>
-                    <br />Be the first to hear about specials and new specimens!
-                </h2>
-                <p>
-                    Please complete the contact form and an associate will reach out to you.
-                </p>
-                <div>
-                    <form action="" method="post">
-                        <input class="rsvp" type="text" value="First Name">
-                        <input class="rsvp" type="text" value="Last Name">
-                        <input class="rsvp" type="text" value="Email Address">
-                        <input class="rsvp" type="text" value="Phone Number">
-                        <input class="rsvp" type="text" value="Reason for Appointment">
-                        <div class="form-spacer">
-                            <label class="terms">Terms and Conditions</label>
-                        </div>
+                    <br>
+                    <br>
+                <!--END NAV-->
+                
+                <!--HOME-->
+                <div id="home">
+                    <br>
+                    <br>
+                    <div>
                         <div>
-                            <input type="submit" value="Submit">
+                            <h1 style="font-size:8vw;text-align:center"><span>Mr. Flower's Plant Boutique</span></h1>
+                            <p style="font-size:2vw;text-align:center"><span>North Texas' Premier Seller of Boutique Botanicals</span></p>
                         </div>
-                    </form>
+                    </div>
+                    
                 </div>
-            </div>
+                <!--END HOME-->
+
+                <hr>
+                
+
+                <div id="gallery">
+                    <br>
+                    <br>
+                    <h2 style="text-align:center">Gallery</h2>
+
+                    <div class="row">
+                        <div class="column">
+                            <img src="img/plants/plant1-small.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                        </div>
+
+                        <div class="column">
+                            <img src="img/plants/plant2-small.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                        </div>
+
+                        <div class="column">
+                            <img src="img/plants/plant3-small.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                        </div>
+
+                        <div class="column">
+                            <img src="img/plants/plant4-small.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                        </div>
+
+                    </div>
+
+                    <div id="myModal" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+
+                        <div class="modal-content">
+
+                            <div class="mySlides">
+                                <div class="numbertext">1 / 4</div>
+
+                                <img src="img/plants/plant1.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">2 / 4</div>
+
+                                <img src="img/plants/plant2.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">3 / 4</div>
+
+                                <img src="img/plants/plant3.png" style="width:100%">
+                            </div>
+
+                            <div class="mySlides">
+                                <div class="numbertext">4 / 4</div>
+
+                                <img src="img/plants/plant4.png" style="width:100%">
+                            </div>
+
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            <div class="caption-container">
+                                <p id="caption"></p>
+                            </div>
+
+                            <div class="column">
+                                <img class="demo cursor" src="img/plants/plant1.png" style="width:100%" onclick="currentSlide(1)" alt="plant1">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo cursor" src="img/plants/plant2.png" style="width:100%" onclick="currentSlide(2)" alt="plant1">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo cursor" src="img/plants/plant3.png" style="width:100%" onclick="currentSlide(3)" alt="plant1">
+                            </div>
+
+                            <div class="column">
+                                <img class="demo cursor" src="img/plants/plant4.png" style="width:100%" onclick="currentSlide(4)" alt="plant1">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            <!--VIDEO SECTION-->
+            <section>
+                
+                <div id="video">
+                    <br>
+                    <br>
+                    <h2 style="text-align:center">The Benefits of Plants at Home</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8at9udGspPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </section>
+
+            <!--RSVP-->
+            <section>
+                <div id="contact">
+                    <h1>Contact Us</h1>
+
+                    <div>
+                        <h2><span>Join our mailing list today.</span>
+                            <br />Be the first to hear about specials and new specimens!
+                        </h2>
+                        <p>
+                            Please complete the contact form and an associate will reach out to you.
+                        </p>
+
+                        <div>
+                            <form name = "myForm" action="" onsubmit="return validateForm()" method="post">
+                                <input class="rsvp" type="text" name = "fName" placeholder="First Name">
+                                <input class="rsvp" type="text" name = "lastName" placeholder="Last Name">
+                                <input class="rsvp" type="text" name = "email" placeholder="Email Address">
+                                <input class="rsvp" type="text" name = "phoneNum" placeholder="Phone Number">
+                                <input class="rsvp" type="text" name = "reason" placeholder="Reason for Appointment">
+                                
+                                <div class="form-spacer">
+                                    <label class="terms">Terms and Conditions</label>
+                                </div>
+
+                                <div>
+                                    <input type="submit" value="Submit">
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            <!--/div-->
+            </section>
+        <!--END RSVP-->
+        
+            <button class = "open-button" id="sticky" onclick="openForm()" >Contact</button>
+        
+        <!--FOOTER-->
+        <div>
+            www.mrflowers.com &nbsp;|&nbsp; &copy; 2022
         </div>
-    </div>
-</section>
-<!--END RSVP-->
+        <!--END FOOTER-->
+        
+        </div>
+        <div class="form-popup" id="popForm">
+            <form action = "" class="form-container">
+                <h1>Contact Support</h1>
+                <label for="email"><b>Email</b>
+                </label>
+                
+                <input type="text" placeholder="Enter Email" name="email" required>
 
-<!--FOOTER-->
-<div>
-    www.mrflowers.com &nbsp;|&nbsp; &copy; 2022
-</div>
-<!--END FOOTER-->
+                <label for="psw"><b>Name</b>
+                </label>
 
+                <input type="password" placeholder="Your Name" name="psw" required>
+
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+            </form>
+        </div>
     </body>
     </html>

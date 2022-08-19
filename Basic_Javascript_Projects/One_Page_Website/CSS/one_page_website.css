@@ -1,6 +1,15 @@
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    opacity: 1;
+    transition: 1s opacity;
+    
+    
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
 }
 
 * {
@@ -45,6 +54,7 @@ box-sizing: border-box;
     float: left;
     list-style: none;
     padding: 16px;
+    
 }
 
 
@@ -178,4 +188,83 @@ img.hover-shadow {
 .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bigContainer {
+    height:max-content;
+}
+.open-button {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    margin-left: 90%;
+    padding: 5px;
+    text-align: right;
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    
+}
+
+
+
+
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn {
+    background-color: darkkhaki;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.form-container .cancel {
+    background-color: plum;
+    
+}
+
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+
+}
+
+
 

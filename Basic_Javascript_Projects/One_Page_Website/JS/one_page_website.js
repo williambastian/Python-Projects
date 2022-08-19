@@ -34,3 +34,20 @@ function showSlides(n) {
     dots[slideIndex-1].className += "active";
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+function validateForm() {
+    let x = document.forms["myForm"] 
+    ["phoneNum"].value;
+        if (x =="") {
+            alert("Please enter a valid phone number");
+            return false;
+        }
+}
+
+function openForm() {
+    document.getElementById("popForm").style.display="block";
+}
+
+function closeForm() {
+    document.getElementById("popForm").style.display="none";
+}
