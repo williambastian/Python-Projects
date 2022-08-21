@@ -196,6 +196,8 @@ html {
 .bigContainer {
     height:max-content;
 }
+
+/*sticky position alternates between relative and absolute. aligned right with 95% left margin. sticks to bottom of page view*/
 .open-button {
     position: -webkit-sticky;
     position: sticky;

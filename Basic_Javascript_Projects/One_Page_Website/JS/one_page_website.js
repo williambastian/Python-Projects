@@ -1,22 +1,26 @@
+//launches modal slide view
 function openModal() {
     document.getElementById("myModal").style.display = "block";
 }
-
+//closes modal slide view
 function closeModal() {
     document.getElementById("myModal").style.display = "none";
 }
-
+//assigns index to slides to allow us to iterate through each one in sequence
 var slideIndex = 1;
 showSlides(slideIndex);
 
+//function to move to next highest slide index, and show the image assigned to that index
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
+//sets current slide index 
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
+//functionality for progressing through slides
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
@@ -34,7 +38,7 @@ function showSlides(n) {
     dots[slideIndex-1].className += "active";
     captionText.innerHTML = dots[slideIndex-1].alt;
 }
-
+//validates that text is entered
 function validateForm() {
     let x = document.forms["myForm"] 
     ["phoneNum"].value;
@@ -43,11 +47,11 @@ function validateForm() {
             return false;
         }
 }
-
+//opens popup version of contact
 function openForm() {
     document.getElementById("popForm").style.display="block";
 }
-
+//closes popup version of contact
 function closeForm() {
     document.getElementById("popForm").style.display="none";
 }
