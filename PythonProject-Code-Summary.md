@@ -4,7 +4,7 @@ Included below are the stories I completed, including selected code snippets.
 Full files for my slice of the project are available under [Python-Live-Project](#Python-Live-Project)
 
 
-Story #1: Build the basic app
+# Story #1: Build the basic app
 Create a new app for the project, named appropriately for what will be tracked, and get it to display a home page with basic content.
 
 Create new app using manage.py startapp
@@ -22,7 +22,7 @@ Footer
 
 
 
-Story #2: Create your model
+# Story #2: Create your model
 Create a model for the collection item to be tracked, and add the ability to create a new item.
 
 Create a model and add a migration, planning out all the categories to be tracked. Include an objects manager for accessing the database.
@@ -67,7 +67,7 @@ class BoardGames(models.Model):
 ### ###
 
 
-Story #3: Display all items from database
+# Story #3: Display all items from database
 Display information from the database in a page.
 
 Create a new HTML page, link it from the home page
@@ -78,7 +78,7 @@ The functioning page lists the items in the database.
 
 
 
-Story #4: Details page
+# Story #4: Details page
 Create a details page that will show the details of any single item from within the database, as selected by the user. Link this to the index page for each item.
 
 Add a details template to the template folder, register the url pattern
@@ -90,7 +90,7 @@ Add whatever styling is appropriate to the templates.
 
 
 
-Story #5: Edit and Delete Functions
+# Story #5: Edit and Delete Functions
 Allow for edits and delete functions to be done from the details page or from separate pages. Have confirmation before deleting.
 
 Add an edit page to the templates
@@ -99,12 +99,12 @@ Have the views function send the information for the single item and save any ch
 Include the option to delete an item with a confirmation that the user wants to delete.
 
 
-Optional Add-On completed:
+# Optional Add-On completed:
 -Use a modal and javascript for the delete confirmation message
 
 
 
-API Pt 1: Connect to API
+# API Pt 1: Connect to API
 Connect to chosen API and get the JSON response, add in a template for displaying the information.
 
 Create a new API template and render with a function
@@ -115,7 +115,7 @@ Link the API request page to the app's home page.
 
 
 
-API Pt 2: Parse through JSON
+# API Pt 2: Parse through JSON
 Parse through the JSON file returned and display the information you want to display. Make additional queries to the API as necessary. Add a link from the app's home page.
 
 Get elements out of the API JSON response, send just the needed values as relevant dictionary objects to the template
@@ -127,7 +127,7 @@ Add appropriate styling.
 
 
 
-BeautifulSoup Pt 1: Setup Beautiful Soup
+# BeautifulSoup Pt 1: Setup Beautiful Soup
 Create a new template for displaying information sourced from another website. Use Beautiful Soup to data scrape the site and find the relevant information.
 
 Create a new template for displaying the content
@@ -139,7 +139,7 @@ Print a basic object to the terminal that contains the elements to be extracted
 
 
 
-BeautifulSoup Pt 2: Parse through html
+# BeautifulSoup Pt 2: Parse through html
 Parse through the html returned and display the targeted information. Remove unwanted formatting. 
 
 Get elements out of the Beautiful Soup object, send just the targeted values as relevant dictionary objects to the template.
@@ -313,7 +313,5 @@ def bgt_api(request):
     return render(request, "BoardGameTracker/BoardGameTracker_api.html", content)
 
     ### ###
-
-Story #8: Front End Improvements
-Go through your various templates and add improvements to the UI/UX. 
+ 
 
