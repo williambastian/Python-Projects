@@ -1,7 +1,7 @@
 For the two week Python Project sprint at the Tech Academy, I worked on a slice of a mature project, which aggregated small data-driven apps built with the django framework into a single hub page. My application was designed as a board game tracker, which would allow users to implement basic CRUD functionality, and display live results scraped from Board Game Quest and GamerPower. Board Game Quest data was scraped using BeautifulSoup, and GamerPower data was scraped using their free API.  Basic front end design was implemented to rapidly prototype the application, and then polished toward the end of the sprint. This project allowed me to work on both front-end and back-end skills in coordination with peers and instructors. I am proud of the work I completed during this sprint, especially considering my part-time schedule. As a student working 20 hours a week on software development, my productivity and completion rate was comparable to the requirements for full time students.
 
 Included below are the stories I completed, including selected code snippets.
-Full files for my slice of the project are available under [https://github.com/williambastian/Python-Projects/tree/main/Python-Live-Project/BoardGameTracker](#Python-Live-Project)
+Full files for my slice of the project are available under [Python-Live-Project](https://github.com/williambastian/Python-Projects/tree/main/Python-Live-Project/BoardGameTracker)
 
 
 # Story #1: Build the basic app
