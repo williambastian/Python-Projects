@@ -13,19 +13,26 @@ Also included is a basic checkbook app created using the Django framework.
 
 # Python Live Project - Board Game Tracker App
 
-    This project allows users to create, update, or delete a personalized list of board games, and scrapes live data from multiple sites to present the user with timely information. This project was created with Python, Django framework, and Beautiful Soup, and tasks were managed using Azure DevOps.
+    This project allows users to create, update, or delete 
+    a personalized list of board games, and scrapes live data 
+    from multiple sites to present the user with timely information. 
+    This project was created with Python, Django framework, 
+    and Beautiful Soup, and tasks were managed using Azure DevOps.
 
 # File Transfer tool - (file_transfer.py)
 
 
-	This project allows users to transfer batches of files between designated directories. 
-	The default setting for this tool only transfers batches of files that were modified within the last 24 hours.
+	This project allows users to transfer batches of files between 
+    designated directories. 
+	The default setting for this tool only transfers 
+    batches of files that were modified within the last 24 hours.
 	
 
 # Student Tracker App  
 	
 	This project demonstrates CRUD functionality using python, tkinter, and sqlite3. 
-	Users can select existing users from the GUI, create / update / delete their details, and save them to the associated database.
+	Users can select existing users from the GUI, create / update / delete their details, 
+    and save them to the associated database.
 	This tool also demonstrates warning popup functionality when exiting the tool.
 
 # Checkbook App - Django Framework - (Django_Checkbook_Project)
